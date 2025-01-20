@@ -126,14 +126,7 @@ header {
   background-image: linear-gradient(to right bottom, rgba(34, 34, 34, 0.2), rgba(34, 34, 34, 0.2)), url(../../assets/images/header-background.jpg);
   background-size: cover;
   -webkit-background-size: cover;
-  text-align: center; 
-@media(max-width: 768px){
-  background-attachment: scroll;
-  background-position: center center;
-  height: 100vh;
-}
-
-}
+  text-align: center; }
   header a:link {
     color: #f0f0f0; }
   header .navbar-brand {
@@ -349,15 +342,3 @@ header {
     margin: auto; }
     .arrow-container .arrow-icon a {
       color: #f0f0f0; }
-
-
-  
-
-/* Add to your main.css */
-.timeline-content h3:hover,          /* Education institution names */
-.timeline-content a p:hover,         /* Education other text */
-.work-content a .company h4:hover,     /* Work company names */
-.work-content a .location:hover {      /* Work locations */
-  color: #ed2024;
-  cursor: pointer;
-}

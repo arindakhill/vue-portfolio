@@ -41,12 +41,12 @@
     </div>
     <div class="credit">
       <p>
-        Designed with 👽 by
+        Designed with  <i class="fas fa-smile" style="font-size: 1rem; color: pink;"></i> by 
         <a
           id="username"
-          href="https://www.github.com/darnocer"
-          alt="Darian's Github"
-          >darnocer</a
+          href="https://www.github.com/arindakhill"
+          alt="arindkhills's Github"
+          >arindakhill</a
         >
       </p>
     </div>

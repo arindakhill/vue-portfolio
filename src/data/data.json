@@ -1,195 +1,333 @@
 {
   "main": {
     "name": {
-        "first": "Bob",
-        "last": "Ross"
+        "first": "Hillary",
+        "last": "Arinda"
     },
     "logo": true,
     "titles": [
-        "Famous Painter.",
-        "Television Host.",
-        "America's Sweetheart."
+        "Embedded Systems Engineer.",
+        "Full-stack Developer.",
+        "IOT Enthusiast.",
+        "Vue Expert"
     ],
     "headings": {
-      "about": "About",
+      "about": "About Me",
+      "Education": "Education",
+      "Work": "Work",
       "skills": "Skills",
-      "portfolio": "Portfolio",
+      "portfolio": "Projects",
+       "Blog": "Blog",
       "contact": "Contact"
+     
     }
   },
     "about": {
-      "bio": "I discovered oil painting while I was enlisted in the U.S. Air Force in Alaska in the early 1960s. I studied the 'wet-on-wet' technique, also known as 'Alla Prima', used by other great painters such as Rembrandt & Monet. This allowed me to produce complete paintings in less than an hour. I then became an art instructor, creating my iconic image and eventually teaching a TV audience of millions on the TV show The Joy of Painting.",
-      "tagline": "We don't make mistakes, just happy little accidents",
+      "bio": "I am a Research and Development Software Engineer at ABB in the Process Automation Measurement & Analytics (PAMA) division, specializing in embedded systems for industrial automation. I have a solid background in full-stack software development and Embedded Systems, with expertise in Java, Spring Boot, React.js, Vue 3, C++, Python  and cloud technologies. Previously, I worked at Goldman Sachs as a Full-Stack Software Engineer, focusing on security remediation in the Treasury Settlement Application. I am currently pursuing a Master's in Computer Science to further enhance my skills in software development, IoT, and cloud solutions."
+,
+      "tagline": "Innovating industrial automation with software engineering.",
       "facts": [
-        {"name": "Hometown",
-        "value": "Orlando, FL"
+        {
+          "name": "Current Role",
+          "value": "R&D Software Engineer at ABB",
+          "iconClass": "fas fa-briefcase"
         },
-        {"name": "Painting Technique",
-        "value": "Alla Prima"
+        {
+          "name": "Previous Experience",
+          "value": "Full-Stack Software Engineer at Goldman Sachs",
+          "iconClass": "fas fa-briefcase"
         },
-        {"name": "# of Paintings",
-        "value": "1,143"
+        {
+          "name": "Degree",
+          "value": "Master of Science in Computer Science (In Progress)",
+          "iconClass": "fas fa-graduation-cap"
         },
-        {"name": "Sun Sign",
-          "value": "Scorpio"
+        {
+          "name": "Years of Experience",
+          "value": "6+",
+          "iconClass": "fas fa-calendar-alt"
+        },
+        {
+          "name": "Specialization",
+          "value": "Full-Stack Development, Cloud Solutions, Embedded Systems",
+          "iconClass": "fas fa-cogs"
         }
-      ]
+      ],
+      "socialLinks": {
+        "linkedin": "https://www.linkedin.com/in/hillary-arinda-555c",
+        "github": "https://github.com/arindakhill"
+      },
+      "education": [
+  {
+    "degree": "Master's Degree in Computer Science",
+    "institution": "Maharishi International University",
+    "website":"https://www.miu.edu",
+    "location": "Iowa, USA",
+    "duration": "2023 - Present",
+    "icon": "/miu.jpeg",
+    "position": "right",
+    "courses": ["Algorithms", "Cloud Computing", "Software Architecture", "Database Management Systems", "Web Applications Architecture",
+     "Machine Learning", "Enterprise Architecture", "Web Applications Programming"]
+  },
+  {
+    "degree": "Bachelor's Degree in Electrical Engineering",
+    "institution": "Makerere University",
+    "website":"https://mak.ac.ug",
+    "location": "Kampala, Uganda",
+    "duration": "2010 - 2015",
+    "icon": "/muk.jpeg",
+    "position": "left",
+    "courses": ["Information and Communications Technology", "Physical Electronics", "Circuit Theory", 
+    "Introduction to Electrical Engineering", "Engineering Mathematics I", "Communication Skills", 
+    "Object-Oriented Programming", "Workshop Practice", "Network Theory", "Electromagnetics", 
+    "Engineering Mathematics III", "Electromagnetic Fields", "Electrical Energy Systems", 
+    "Instrumentation", "Engineering Mathematics IV", "Technology Ethics and Human Rights", 
+    "Energy Conversion and Generation", "Industrial Training", "Microprocessor Based Systems",
+     "Power System Protection & Coordination", "Electrical Installation Design", "Engineering Project Management"]
+  }
+]
+
     },
+    
+    "work": [
+      {
+        "position": "Research and Development Software Engineer",
+        "company": "ABB Inc.",
+        "website":"https://new.abb.com/us",
+        "location": "Process Automation Measurement & Analytics (PAMA) Division",
+        "duration": "12/2024 - Present",
+        "responsibilities": "Developing software solutions for industrial automation, working with cloud technologies, Java, and machine learning.",
+        "skills": ["Python", "Vue", "C++", "Embedded Systems"],
+        "icon": "/abb.jpeg"
+    
+      },
+      {
+        "position": "Java Developer",
+        "company": "Goldman Sachs (via Insight Global)",
+        "website":"https://www.goldmansachs.com/",
+        "location": "New York, NY",
+        "duration": "08/2024 - 12/2024",
+        "responsibilities": "Focused on security remediation for the Treasury Settlement Application, developing both front-end and back-end components.",
+        "skills": ["Java", "React", "Spring Boot", "Security Remediation"],
+        "icon": "/goldman.png"
+       
+      },
+    {
+
+      "position": "Senior Full Stack Software Engineer",
+      "company": "UMEME LIMITED",
+      "website":"https://www.umeme.co.ug/",
+      "location": "Kampala, Uganda",
+      "duration": "01/2021 – 08/2023",
+      "responsibilities": [
+        "Led key software development projects that enhanced system efficiencies and client trust through innovative technological solutions.",
+        "Spearheaded the development of the automated new customer connection management system using Angular and Spring Boot, enabling real-time job assignments, meter allocation, and data submission for field technicians enhancing operational efficiency and customer satisfaction.",
+        "Utilized MuleSoft, RESTful APIs and Java Spring Boot in designing UMEME's CRM system integration to automate meter setup, reducing vending initiation time from 26 hours to under a minute, optimizing workforce allocation, and cutting costs."
+      ],
+      "skills": ["Angular", "Spring Boot", "Java", "MuleSoft", "RESTful APIs", "React", "Machine Learning", "AWS"],
+      "icon": "/umeme.png"
+     
+    },
+    {
+      "position": "Full Stack Software Developer",
+      "company": "UMEME LIMITED",
+      "website": "https://www.umeme.co.ug/",
+      "location": "Kampala, Uganda",
+      "duration": "04/2017 – 01/2021",
+      "responsibilities": [
+        "Designed and maintained robust database systems with MySQL and Cassandra, optimizing performance and management through advanced indexing and tailored stored procedures, resulting in a 20% enhancement in query execution times.",
+        "Led the pilot project for an automated power theft detection system utilizing machine learning, Apache Kafka, Apache Spark, and Power BI, which improved fraud detection accuracy from 10% to 40%.",
+        "Spearheaded UMEME's meter reading digitization, employing React and Spring Boot with geofencing and mobile imaging, cutting the cycle from five to two days, enhancing efficiency, customer trust, and cash flow."
+      ],
+      "skills": ["React", "Spring Boot", "MySQL", "Cassandra", "Machine Learning", "Apache Kafka", "AWS", "Power BI"],
+      "icon": "/umeme.png"
+    },
+    {
+      "position": "Embedded Systems and Software Engineer",
+      "company": "LUMINGO AB",
+      "website":"https://www.facebook.com/LuminGo.Official/",
+      "location": "Villa Bellona, Sweden",
+      "duration": "01/2015 – 12/2016",
+      "responsibilities": [
+        "Spearheaded SCADA and load monitoring unit development, improving electricity distribution efficiency.",
+        "Engineered and coded firmware for IoT-enabled Load Monitoring Units using C++ and CodeWarrior IDE, leading to the deployment of over 200 units across Uganda and India.",
+        "Pioneered the development of the LuminGo SCADA system using NodeRed, ReactJS, Firebase, AWS, and IBM Cloud, enhancing data processing and visualization speeds by 25% for Load Management Units."
+      ],
+      "skills": ["C++", "NodeRed", "ReactJS", "AWS", "Firebase", "IoT", "SCADA"],
+      "icon": "/lumingo.png"
+    }
+  ]
+    ,
     "skills": {
-    "defaultCategory": "Painting",
+    "defaultCategory": "Software Engineering",
     
     "categories": [
       {
-        "category": "Painting",
-        "subtitle": "My true passion!",
-        "faClass": "fas fa-paint-brush",        
+        "category": "Programming Languages",
+        "subtitle": "Core Languages I Use",
+        "faClass": "fas fa-code",        
         "skillList":[
           {
-            "name": "Oil Painting",
-            "level": "100"
+            "name": "Java",
+            "level": "90"
           },
           {
-            "name": "Watercolor",
-            "level": "90"
+            "name": "JavaScript",
+            "level": "80"
           },
           
           {
-            "name": "Acrylic",
+            "name": "Python",
             "level": "70"
-          },
-          {
-            "name": "Pastels",
-            "level": "60"
           }
         ]
       },
 
       {
-        "category": "Teaching",
-        "subtitle": "",
-        "faClass": "fas fa-chalkboard-teacher",        
+        "category": "Frameworks & Tools",
+        "subtitle": "Technologies I Work With",
+        "faClass": "fas fa-cogs",        
         "skillList":[
           {
-            "name": "Communication",
+            "name": "Spring Boot",
             "level": "90"
           },
           
           {
-            "name": "Patience",
-            "level": "100"
+            "name": "Vue",
+            "level": "75"
           },
           {
-            "name": "Leadership",
-            "level": "90"
+            "name": "React",
+            "level": "70"
+          },
+          {
+            "name": "Node.js",
+            "level": "65"
+          },
+          {
+            "name": "Docker",
+            "level": "60"
+          },
+          {
+            "name": "Kubernetes",
+            "level": "60"
+          },
+          {
+            "name": "AWS",
+            "level": "60"
           }
+        ]
+      },
+      {
+        "category": "Embedded Systems",
+        "subtitle": "Specialization in Industrial Automation",
+        "faClass": "fas fa-microchip",
+        "skillList": [
+          {"name": "C++", "level": "85"},
+          {"name": "IoT Integration", "level": "75"},
+          {"name": "Embedded Linux", "level": "70"}
+        ]
+      },
+      {
+        "category": "Soft Skills",
+        "subtitle": "Skills That Make Me Stand Out",
+        "faClass": "fas fa-user-friends",
+        "skillList": [
+          {"name": "Problem Solving", "level": "100"},
+          {"name": "Teamwork", "level": "90"},
+          {"name": "Communication", "level": "80"},
+          {"name": "Leadership", "level": "80"}
         ]
       }
     ]
   },
 "portfolio": {
-  "defaultFilter": "mountains",
+  "defaultFilter": "software",
   "projects": [
     {
-      "title": "Peaceful Valley",
-      "description": "S1E8",
-      "image": "peacefulvalley.png",
-      "link": "https://www.twoinchbrush.com/painting/peaceful-valley",
-      "source": "https://www.twoinchbrush.com/painting/peaceful-valley",
-      "filter": "mountains"
+      "title": "Mini-Property Management System",
+      "description": "A web application tailored for the real estate industry, facilitating seamless engagement between property owners, clients, and administrators. Led the front-end development, focusing on creating intuitive user interfaces and ensuring a responsive design with React.js, aligned with RESTful services and secure cloud deployment using the Spring Framework.",
+      "image": "/src/assets/images/projects/mini-property-management.png",
+      "link": "https://github.com/arindakhill/propertymanagementportal-fullstack",
+      "source": "https://github.com/arindakhill/propertymanagementportal-fullstack",
+      "filter": "software"
+    },
+    {
+      "title": "Resort Management System (RMS)",
+      "description": "This system facilitated online reservations and payments for resort accommodations, incorporating RESTful microservices and Spring technologies. Involved in domain-driven design for UML class diagrams, architectural planning for a scalable and secure system, and implementing security features like Spring Security with JWT.",
+      "image": "../../assets/images/projects/resort-management-system.png",
+      "link": "https://github.com/arindakhill/resort-management-spring",
+      "source": "https://github.com/arindakhill/resort-management-spring",
+      "filter": "software"
+    },
+    {
+      "title": "Library Management System",
+      "description": "A Swing-based desktop application designed to manage library functionalities such as book cataloging, user account management, and the borrowing process. Developed a user-friendly interface and implemented CRUD operations for Books and Users.",
+      "image": "../../assets/images/projects/library-management-system.png",
+      "link": "https://github.com/dunky-star/mpp-project-2023-group2",
+      "source": "https://github.com/dunky-star/mpp-project-2023-group2",
+      "filter": "software"
+    },
+    {
+      "title": "Low Voltage Circuit Breaker Remote Closing System Using GSM",
+      "description": "Designed and implemented a remote closing system for low voltage circuit breakers using GSM, enhancing efficiency by reducing manual interventions for fault recovery. The system includes automated fault detection, reclosure attempts, and SMS alerts for permanent faults.",
+      "image": "/src/assets/images/projects/low-voltage-circuit-breaker.png",
+      "source": "https://github.com/arindakhill/rogers-lv-breaker-control-",
+      "filter": "embedded",
+      "demoVideos": {
+        "demo1": {
+          "title": "Automating fault detection and reclosure",
+          "path": "/src/assets/videos/circuit-breaker-demo1.mp4"
         },
-    {
-      "title": "Meadow Lake",
-      "description": "S2E1",
-      "image": "meadowlake.png",
-      "link": "https://www.twoinchbrush.com/painting/meadow-lake",
-      "source": "https://www.twoinchbrush.com/painting/meadow-lake",
-      "filter": "mountains"
-    },
-    {
-      "title": "Final Grace",
-      "description": "S2E13",
-      "image": "finalgrace.png",
-      "link": "https://www.twoinchbrush.com/painting/final-grace",
-      "source": "https://www.twoinchbrush.com/painting/final-grace",
-      "filter": "mountains"
-    },
-    {
-      "title": "Purple Splendor",
-      "description": "S4E1",
-      "image": "purplesplendor.png",
-      "link": "https://www.twoinchbrush.com/painting/purple-splendor",
-      "source": "https://www.twoinchbrush.com/painting/purple-splendor",
-      "filter": "snow"
-    },
-    {
-      "title": "Winter Stillness",
-      "description": "S5E4",
-      "image": "winterstillness.png",
-      "link": "https://www.twoinchbrush.com/painting/winter-stillness",
-      "source": "https://www.twoinchbrush.com/painting/winter-stillness",
-      "filter": "snow"
-    },
-    {
-      "title": "Grey Winter",
-      "description": "S7E11",
-      "image": "greywinter.png",
-      "link": "https://www.twoinchbrush.com/painting/grey-winter",
-      "source": "https://www.twoinchbrush.com/painting/grey-winter",
-      "filter": "snow"
-    },
-    {
-      "title": "Bubbling Stream",
-      "description": "S3E3",
-      "image": "bubblingstream.png",
-      "link": "https://www.twoinchbrush.com/painting/bubbling-stream",
-      "source": "https://www.twoinchbrush.com/painting/bubbling-stream",
-      "filter": "water"
-    },
-    {
-      "title": "Blaze of Color",
-      "description": "S6E13",
-      "image": "blazeofcolor.png",
-      "link": "https://www.twoinchbrush.com/painting/blaze-of-color",
-      "source": "https://www.twoinchbrush.com/painting/blaze-of-color",
-      "filter": "water"
-    },
-    {
-      "title": "Night Light",
-      "description": "S3E8",
-      "image": "nightlight.png",
-      "link": "https://www.twoinchbrush.com/painting/night-light",
-      "source": "https://www.twoinchbrush.com/painting/night-light",
-      "filter": "water"
+        "demo2": {
+          "title": "Remote reset and reclosure",
+          "path": "/src/assets/videos/circuit-breaker-demo2.mp4"
+        }
+      }
     }
-
   ]
-},
+}
+,
     "contact":{
-      "text": "It will be pretty hard to reach me, probably.",
-      "formTitle": "Send Me A Message",
+      "text": "Feel free to reach out for project collaborations, job opportunities, or to discuss new ideas in software development.",
+      "formTitle": "Get in Touch",
       "formEndPoint": "",
-      "city": "Orlando, Florida",
-      "email": "info@bobross.com",
-      "phone": "1-800-BOB-ROSS",
-      "resumeLink": "https://www.twoinchbrush.com/all-paintings",
+      "city": "Bartlesville, OK",
+      "email": "arinda.hillary@gmail.com",
+      "phone": "1-641-233-9884",
+      "resumeLink": "/resume.pdf",
+      "linkedin": "https://www.linkedin.com/in/hillary-arinda-555c",
+      "github": "https://github.com/arindakhill",
       "form": true,
       
       "social": [
+        {
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/hillary-arinda-555c",
+          "faClass": "fab fa-linkedin"
+        },
+        {
+          "name": "github",
+          "url": "https://github.com/arindakhill",
+          "faClass": "fab fa-github"
+        },
           {
             "name": "twitter",
-            "url": "https://twitter.com/bobrossofficial",
+            "url": "https://x.com/a_khill",
             "faClass": "fab fa-twitter"
           },
           {
             "name": "facebook",
-            "url": "https://www.facebook.com/TheJoyofPaintingWithBobRoss/",
+            "url": "https://www.facebook.com/rindzo",
             "faClass": "fab fa-facebook-f"
           },
           {
             "name": "instagram",
-            "url": "https://www.instagram.com/bobross_thejoyofpainting/",
+            "url": "https://www.instagram.com/rindzo/",
             "faClass": "fab fa-instagram"
           }
+         
         ]
       },
   "footer": {

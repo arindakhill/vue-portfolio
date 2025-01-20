@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -13,21 +13,24 @@
     "aos": "^2.3.4",
     "babel-loader": "^8.2.1",
     "core-js": "^3.6.5",
-    "eslint-loader": "2.1.2",
-    "jquery": "^3.5.1",
+    "jquery": "^3.7.1",
     "netlify-cli": "^2.69.1",
-    "node-sass": "^5.0.0",
-    "sass-loader": "^10.1.0",
     "typewriter-effect": "^2.13.1",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-router": "^3.6.5"
   },
   "devDependencies": {
+    "@types/jquery": "^3.5.32",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.4",
     "eslint-plugin-vue": "^6.2.2",
+    "postcss-loader": "^8.1.1",
+    "sass": "^1.83.1",
+    "sass-loader": "^10.2.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
